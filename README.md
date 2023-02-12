@@ -21,7 +21,17 @@ after that you can use the different it offers:
 
 Usage of count():
 
-![image](https://user-images.githubusercontent.com/98488748/218310382-27b9a6d8-48a4-48b6-b111-0f8eee18b1dc.png)
+```from analysis import *
+
+
+def Function():
+    x = 0
+    for n in range(10000000):
+        x = x + 1
+
+
+count(Function)
+```
 
 Result: ```(0.45505857467651367, 'Function')```
 
