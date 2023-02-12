@@ -21,14 +21,13 @@ after that you can use the different it offers:
 
 Usage of count():
 
-```from analysis import *
-
+```
+from analysis import *
 
 def Function():
     x = 0
     for n in range(10000000):
         x = x + 1
-
 
 count(Function)
 ```
@@ -37,7 +36,16 @@ Result: ```(0.45505857467651367, 'Function')```
 
 Usage of save():
 
-![image](https://user-images.githubusercontent.com/98488748/218310557-4a7e6108-da52-4f9c-b6e0-9a8fe1a82f95.png)
+```
+from analysis import *
+
+def Function():
+    x = 0
+    for n in range(10000000):
+        x = x + 1
+        
+save(Function, "FunctionName")
+```
 
 Result:
 
