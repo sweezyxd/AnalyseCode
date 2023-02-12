@@ -20,6 +20,7 @@ after that you can use the different it offers:
 # Examples
 
 Usage of Count():
+
 ![image](https://user-images.githubusercontent.com/98488748/218310382-27b9a6d8-48a4-48b6-b111-0f8eee18b1dc.png)
 
 result: ```(0.45505857467651367, 'Function')```
